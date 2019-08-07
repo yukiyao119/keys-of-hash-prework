@@ -1,12 +1,10 @@
 require 'pry'
 
 class Hash
-  def keys_of(*arguments) 
-    # /* *arguments is an arr of argument, which is hash */
+  def keys_of(*arguments) # *arguments is an arr of argument, which is hash 
     result = []
     arguments.each do |v|
-      binding.pry
-      # argument is kinda a hash
+      # binding.pry 
       if arguments == v 
         result << k
       end 
