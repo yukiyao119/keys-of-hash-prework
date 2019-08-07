@@ -5,10 +5,7 @@ class Hash
     result = []
     arguments.each do |v|
       # binding.pry 
-      if arguments == v 
-        result << k
-      end 
-      binding.pry
+
     end 
     result
     binding.pry 
