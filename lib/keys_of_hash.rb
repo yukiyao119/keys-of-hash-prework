@@ -14,9 +14,8 @@ class Hash
     result = []
     self.each do |k, v|
       arguments.each do |element|
-        if v == arguments
+        if v == element
           result << k
-          binding.pry 
         end 
       end  
     end 
